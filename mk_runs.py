@@ -26,7 +26,7 @@ on["HB114_13CO"] =  [ 105907, ]
 pars1 = {}
 
 #  for 200MHz bandwidth (~500 km/s) need smaller dv,dw
-pars1["HB114_13CO"] = "dv=50 dw=100"
+pars1["HB114_13CO"] = "dv=50 dw=100 numbands=1" 
 
 pars2 = {}
 
