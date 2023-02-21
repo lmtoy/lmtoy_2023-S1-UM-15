@@ -1,0 +1,3 @@
+#  <obsnum>   <comment>     # <SLpipeline args>
+105907  bad baselines, beam 13 bad
+105908  aborted
