@@ -9,7 +9,7 @@ restfreq=115.271202,115.271204
 
 So the only way to reduce it, is by forcing numbands=1
 
-Only 105907 was observed.
+Only 105907 was observed. There is also 105908 but this seems a short (failed?) obsnum of only 180 sec.
 
 This is one of the rare 200 MHz (8k channels) data. There are some birdies in some of
 the beams, but with a narrow dv,dw they won't bother us. Otherwise use birdies=
