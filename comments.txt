@@ -1,5 +1,5 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
-105907  beam 13 bad
+105907  wrong source name
 # 105907__49   cloud
 
 105908  aborted (short)
