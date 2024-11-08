@@ -3,3 +3,7 @@
 # 105907__49   cloud
 
 105908  aborted (short)
+
+
+121947 QAFAIL 10MHz distribution box off
+121946 QAFAIL 10MHz distribution box off
