@@ -20,7 +20,10 @@ on["HB56"] =        [ 120849, 120850, 120913, 120914, 122114, 122115,]
 
 on["HB60"] =        [ 120724, 120725, 121014,
                      -121946,-121947,      # nov 6 - all bad
-                      122324, ]            # nov 10
+                      122324,              # nov 10
+                      122637, 122638,]     # nov 19
+
+
 pars1 = {}
 
 #  for 200MHz bandwidth (~500 km/s) need smaller dv,dw, also to avoid birdies when you can
