@@ -17,6 +17,10 @@ The source of interest has vlsr=-47, another strong source is around vlsr=-30, w
 at the OFF position, hence results in negative signal.   For the puprose of the pipeline, vlsr=-40 was
 choosen, with a wider dv=15.  but a more smart baseline would be better
 
+## HB103
+
+Two lines at __1 (115GHz).
+
 
 ## HB114_13CO
 
