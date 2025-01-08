@@ -39,12 +39,12 @@ pars1 = {}
 #  for 200MHz bandwidth (~500 km/s) need smaller dv,dw, also to avoid birdies when you can
 #  add vlsr=0 if you want to see the local CO
 pars1["HB103"]      = "dv=6 dw=30 vlsr=-47 restart=1 pix_list=-15  b_order=1 extent=480 otf_cal=1"
-pars1["HB114"]      = "dv=6 dw=30 numbands=1 restart=1 pix_list=-13 b_order=1 extent=360 otf_cal=1"
+pars1["HB114"]      = "dv=3 dw=15 vlsr=-47 restart=1 pix_list=-13 b_order=1 extent=360 otf_cal=1"
 #pars1["HB114_13CO"] = "dv=6 dw=30 numbands=1 restart=1 pix_list=-13 b_order=1 extent=360 otf_cal=1"
 pars1["HB46"]       = "dv=6 dw=30 vlsr=-59 restart=1 pix_list=-15  b_order=1 extent=360 otf_cal=1"
 pars1["HB56"]       = "dv=6 dw=30 vlsr=-55 restart=1 pix_list=-15  b_order=1 extent=360 otf_cal=1"
 pars1["HB60"]       = "dv=6 dw=30 vlsr=-53 restart=1 pix_list=-15  b_order=1 extent=480 otf_cal=1"
-pars1["HB94"]       = "dv=6 dw=30 vlsr=-53 restart=1 pix_list=-15  b_order=1 extent=480 otf_cal=1"
+pars1["HB94"]       = "dv=6 dw=30 vlsr=-50 restart=1 pix_list=-15  b_order=1 extent=480 otf_cal=1"
 
 
 pars2 = {}
@@ -60,10 +60,10 @@ pars3={}
 pars3["HB103"]      = "bank=1 pix_list=-4,13,14,15"
 pars3["HB114"]      = "bank=1 pix_list=-4,13,14,15"
 #pars3["HB114_13CO"] = ""
-pars3["HB46"]       = "bank=1 pix_list=-4,13,14,15"
-pars3["HB56"]       = "bank=1 pix_list=-4,13,14,15"
-pars3["HB60"]       = "bank=1 pix_list=-4,13,14,15"
-pars3["HB94"]       = "bank=1 pix_list=-4,13,14,15"
+pars3["HB46"]       = "bank=1 pix_list=-4,13,15"
+pars3["HB56"]       = "bank=1 pix_list=-4,13,15"
+pars3["HB60"]       = "bank=1 pix_list=-4,13,15"
+pars3["HB94"]       = "bank=1 pix_list=-4,13,15"
 
 if __name__ == "__main__":
     runs.mk_runs(project, on, pars1, pars2, pars3, sys.argv)
